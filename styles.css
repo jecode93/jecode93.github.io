@@ -1,0 +1,187 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', 'Oxygen','Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    padding-top: 20px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* HERO SECTION */
+
+.hero-section{
+    height: 400px;
+    background-color: #1f2937;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    float: left;
+}
+
+.navMenu {
+    float: right;
+    color: #f9faf8;
+}
+
+.navMenu a{
+    text-decoration: none;
+    color: #f9faf8;
+    margin: auto 10px;
+}
+
+.flex-container{
+    display: flex;
+    margin-top: 90px;
+}
+
+.flex-container .column{
+    flex-direction: column;
+    text-align: start;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.flex-container h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.flex-container p{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.flex-container button{
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    
+}
+
+.flex-container img{
+    width: 350px;
+    border-radius: 5px;
+}
+
+/* INFORMATION SECTION */
+
+.information-section{
+    height: 350px;
+    padding: 50px 0;
+}
+
+.information-section h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.flex-container2{
+    display: flex;
+    margin-top: 50px;
+}
+
+.flex-container2 .box{
+    height: 130px;
+    width: 130px;
+    margin: auto;
+    border: solid;
+    border-width: 2px;
+    border-color: #3882f6;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.flex-container2 p{
+    margin-top: 15px;
+}
+
+
+/* QUOTE SECTION */
+
+.quote-section{
+    height: 400px;
+    background-color: #e5e7eb;
+}
+
+.quote-section .quote{
+    font-size: 36px;
+    font-style:italic;
+    font-weight:100;
+    color: #1f2937;
+    padding: 50px;
+    text-align: center;
+}
+
+.quote-section .author{
+    float: right;
+    font-weight: bold;
+}
+
+
+/* CALL TO ACTION SECTION */
+
+.call-to-action{
+    height: 200px;
+    padding: 50px 0px;
+}
+
+.flex-container3{
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.flex-container3 p{
+    text-align: start;
+    color: #e5e7eb;
+    margin-right: 30px;
+}
+
+.flex-container3 .call{
+    font-weight: bold;
+}
+
+.flex-container3 .left{
+    float: left;
+}
+
+
+.flex-container3 button{
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: white;
+    float: right;
+
+}
+
+
+
+/* FOOTER SECTION */
+
+.footer{
+    height: 60px;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
+
+
